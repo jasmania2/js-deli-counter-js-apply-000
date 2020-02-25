@@ -16,8 +16,10 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
  var x=0;
+ var array =[];
   if (katzDeliLine[0] !== undefined){
     do {
+      array.push ();
       x++;
     } while ();
     return "The line is currently: " + array;
