@@ -20,9 +20,9 @@ function currentLine(katzDeliLine){
  var list = (x+1) +". " + katzDeliLine[x];
   if (katzDeliLine[x] !== undefined){
     do {
-      
+       x++;
       array.push(list);
-      x++;
+     
     } while (x<katzDeliLine.length);
     return "The line is currently: " + array;
   } else {
