@@ -20,5 +20,5 @@ function currentLine(katzDeliLine){
     
     array.push((x+1) +". " + katzDeliLine[x]);
   }
-  return array;
+  return "The current line is: " + array;
 }
