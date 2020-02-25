@@ -18,7 +18,7 @@ function currentLine(katzDeliLine){
   for (let x=0;x<katzDeliLine.length;x++){
     let array=[];
   if (katzDeliLine[0] !== undefined){
-    var list = katzDeliLine[x].length +". " + katzDeliLine[x];
+    var list = (x+1) +". " + katzDeliLine[x];
     array.push(list);
     return "The line is currently: " + array;
   } else {
