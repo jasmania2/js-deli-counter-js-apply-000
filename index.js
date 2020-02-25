@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
  var array =[];
  
   if (katzDeliLine[x] !== undefined){
-    var list = (x+1) +". " + katzDeliLine[x] + " ";
+ var list = (x+1) +". " + katzDeliLine[x] + " ";   
      while (x<katzDeliLine.length){
       x++;
       array.push(list);
