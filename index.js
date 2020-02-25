@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
  
   if (katzDeliLine[x] !== undefined){
     
-     while (x<katzDeliLine.length){
+     while (x<=katzDeliLine.length){
       x++;
       return "The line is currently: " + (x+1) +". " + katzDeliLine[x];
     }
