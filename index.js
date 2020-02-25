@@ -15,10 +15,12 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
+  for (let x=0;x<katzDeliLine.length;x++){
   if (katzDeliLine[0] !== undefined){
-    var list= katzDeliLine.length + `${person}`;
+    var list= katzDeliLine.length + katzDeliLine[x];
     return "The line is currently " + list;
   } else {
     return "The line is currently empty.";
   }
+ }
 }
