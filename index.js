@@ -19,10 +19,10 @@ function currentLine(katzDeliLine){
  var array =[];
  var list = (x+1) +". " + katzDeliLine[x] + " ";
   if (katzDeliLine[x] !== undefined){
-    do {
+     while (x<katzDeliLine.lengdo {
       x++;
       array.push(list);
-    } while (x<katzDeliLine.length);
+    }th);
     return "The line is currently: " + array;
   } else {
     return "The line is currently empty.";
