@@ -16,6 +16,6 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
   if (katzDeliLine[0] !== undefined){
-    return "The line is currently " + katzDeliLine.length + ","
+    return "The line is currently " + katzDeliLine.length + `${person}`
   }
 }
